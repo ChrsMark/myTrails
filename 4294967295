@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20150916082639_create_microposts.rb
+      create    app/models/micropost.rb
+      invoke    test_unit
+      create      test/models/micropost_test.rb
+      create      test/fixtures/microposts.yml
